@@ -1,5 +1,5 @@
 import React from 'react';
-import {SubApp} from '../app/subapp';
+import { SubApp } from '../app/subapp';
 import { shallow } from 'enzyme';
 
 test("renders the heading with props supplied", () => {
