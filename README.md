@@ -17,4 +17,4 @@ It will also be a learning of all these technologies in React Ecosystem.
 * [GraphQL](https://graphql.org/)
 * [Express](https://expressjs.com/)
 * [MongoDB](https://www.mongodb.com/)
-* [Testing for Express (not sure which framework to use)
+* Testing for Express (not sure which framework to use)
