@@ -3,7 +3,7 @@ import {SubApp} from '../app/subapp';
 import { shallow } from 'enzyme';
 
 test("renders the heading with props supplied", () => {
-    const result = shallow(<SubApp message="Polaris"/>).contains(<h1>Hello Tanay</h1>);
+    const result = shallow(<SubApp message="Polaris"/>).contains(<h1>Hello Polaris</h1>);
     expect(result).toBeTruthy();
 });
 
