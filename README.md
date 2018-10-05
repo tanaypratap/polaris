@@ -9,7 +9,7 @@ It will also be a learning of all these technologies in React Ecosystem.
 ### Technologies to be incorporated
 * [React 16.3](https://reactjs.org/)
 * [TypeScript (Both on client and server side)](https://www.typescriptlang.org/)
-* [React Router 4]()](https://reacttraining.com/react-router/)
+* [React Router 4](https://reacttraining.com/react-router/)
 * [PostCSS for CSS](https://postcss.org/)
 * [Webpack 4](https://webpack.js.org/)
 * [Jest (React Testing)](https://jestjs.io/en/)
