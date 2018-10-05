@@ -13,8 +13,8 @@ It will also be a learning of all these technologies in React Ecosystem.
 * [PostCSS](http://api.postcss.org/) for CSS
 * [Webpack 4](https://webpack.js.org/concepts/)
 * [Jest](https://jestjs.io/docs/en/api) (React Testing)
-* [Apollo](https://www.apollographql.com/docs/react/api/react-apollo.html)
-* [GraphQL](https://www.apollographql.com/docs/)
+* [Apollo](https://www.apollographql.com/docs/)
+* [GraphQL](https://graphql.org/learn/)
 * [Express](https://expressjs.com/en/api.html)
 * [MongoDB](https://docs.mongodb.com/)
 * Testing for Express (not sure which framework to use)
