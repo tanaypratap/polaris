@@ -1,6 +1,6 @@
 Polaris 2018
 =============
-Creating a scaffolding for full stack React with TypeScript, Apollo, GraphQL, Jest, Express, React Router and make them all work cohesively
+Creating a scaffolding for full stack React with TypeScript (striving to put everything in TS), Apollo, GraphQL, Jest, Express, React Router and make them all work cohesively
 
 ### Vision
 This is a work in progress. Idea is to treat this as scaffolding for future projects.
