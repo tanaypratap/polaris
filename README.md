@@ -18,3 +18,9 @@ It will also be a learning of all these technologies in React Ecosystem.
 * [Express](https://expressjs.com/)
 * [MongoDB](https://www.mongodb.com/)
 * Testing for Express (not sure which framework to use)
+
+
+### Running the client and server
+Currently client and server are two disjointed pieces. However, soon server will be serving the client in dev as well as in prod mode. 
+For now, if you want to run server (which has no useful code), use `npm run start:server` at project root.
+The client is setup only for development currently, if you want to run it to see the output use `npm run start` at project root.
