@@ -12,7 +12,8 @@
     "start:server": "npm run build:watch",
     "build:server": "tsc",
     "build:watch": "nodemon --exec ./node_modules/.bin/ts-node -- ./_server/index.ts",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "express": "^4.16.3",

@@ -5,9 +5,3 @@ exports[`matches snapshot test with no props supplied 1`] = `
   Hello 
 </h1>
 `;
-
-exports[`matching snapshot test 1`] = `
-<h1>
-  Hello 
-</h1>
-`;
