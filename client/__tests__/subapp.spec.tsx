@@ -3,11 +3,11 @@ import {SubApp} from '../app/subapp';
 import { shallow } from 'enzyme';
 
 test("renders the heading with props supplied", () => {
-    const result = shallow(<SubApp message="Tanay"/>).contains(<h1>Hello Tanay</h1>);
+    const result = shallow(<SubApp message="Polaris"/>).contains(<h1>Hello Tanay</h1>);
     expect(result).toBeTruthy();
 });
 
-test('matching snapshot test', () => {
+test("matches snapshot test with no props supplied", () => {
     const snap = shallow(<SubApp message=""/>);
     // Snapshot demo
     expect(snap).toMatchSnapshot();
