@@ -1,9 +1,9 @@
 import React, { SFC } from "react";
-import { Header } from "./components";
+import { StyledHeader } from "./components";
 
 export const App: SFC<{}> = props => (
-  <div>
-    <Header />
+  <div className="site-container">
+    <StyledHeader />
     {props.children}
   </div>
 );
