@@ -1,0 +1,57 @@
+{
+  "name": "Polaris App",
+  "short_name": "Polaris",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#5F4B8B",
+  "description": "A scaffolding app for full stack React with TypeScript, Apollo, GraphQL, Jest, Express.",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "168x168",
+      "type": "image/png"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "git",
+      "url": "https://github.com/tanaypratap/polaris-2018"
+    }
+  ]
+}
