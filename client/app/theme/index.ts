@@ -11,9 +11,6 @@ const {
   ThemeProvider
 } = styledComponents as ThemedStyledComponentsModule<ThemeInterface>;
 
-export const theme: ThemeInterface = {
-  primaryColor: "#24292e"
-};
-
+export { theme } from "./theme";
 export { css, injectGlobal, keyframes, ThemeProvider };
 export default styled;

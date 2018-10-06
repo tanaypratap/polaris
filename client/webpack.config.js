@@ -8,10 +8,14 @@ module.exports = {
   entry: "./app/index.tsx",
   output: {
     path: __dirname + "/public",
-    filename: "build/app.js"
+    filename: "build/app.js",
+    publicPath: "/"
   },
   resolve: {
     extensions: [".ts", ".tsx", ".js"]
+  },
+  devServer: {
+    historyApiFallback: true
   },
   module: {
     rules: [
