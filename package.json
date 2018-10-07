@@ -13,13 +13,16 @@
     "build:server": "tsc",
     "build:watch": "nodemon --exec ./node_modules/.bin/ts-node -- ./_server/index.ts",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "fix": "tslint --fix **/*.ts{,x}"
   },
   "dependencies": {
     "express": "^4.16.3",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-router": "^4.3.1",
+    "tslint": "^5.11.0",
+    "tslint-react": "^3.6.0",
     "webpack": "^4.15.1",
     "webpack-cli": "^3.0.8",
     "webpack-dev-server": "^3.1.4"
