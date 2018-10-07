@@ -1,0 +1,8 @@
+{
+    "extends": ["tslint:latest", "tslint-react"],
+    "rules": {
+        "jsx-alignment": true,
+        "jsx-self-close": true,
+        "jsx-space-before-trailing-slash": true
+    }
+}
