@@ -1,20 +1,20 @@
 import React, { SFC } from "react";
-import { StyledHeader } from "./components";
-import styled from "./theme";
+import { Header } from "./components";
 
 interface AppProps {
   className?: string;
+  children: JSX.Element[];
 }
 
-const App: SFC<AppProps> = props => (
+const appStyling = {
+  paddingTop: "66px",
+  fontSize: "1em",
+  lineHeight: "1.4"
+};
+
+export const App: SFC<AppProps> = (props: AppProps) => (
   <div>
-    <StyledHeader />
-    <div className={props.className}>{props.children}</div>
+    <Header />
+    <div style={appStyling}>{props.children}</div>
   </div>
 );
-
-export const StyledApp = styled(App)`
-  padding-top: 66px;
-  font-size: 1em;
-  line-height: 1.4;
-`;

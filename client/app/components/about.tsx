@@ -1,23 +1,22 @@
 import React, { SFC } from "react";
-import styled from "../theme";
 interface AboutProps {
   content?: string;
 }
 
-const PageWrapper = styled.div`
-  padding: 1% 3%;
-`;
+const pStyle = {
+  fontSize: "20px",
+  lineHeight: "1.4em"
+};
 
-const ContentWrapper = styled.p`
-  font-size: 20px;
-  line-height: 1.4em;
-`;
+const divStyle = {
+  padding: "1% 3%"
+};
 
-export const About: SFC<AboutProps> = props => (
-  <PageWrapper>
+export const About: SFC<AboutProps> = (props: AboutProps) => (
+  <div style={divStyle}>
     <h1>About</h1>
-    <ContentWrapper>{props.content}</ContentWrapper>
-  </PageWrapper>
+    <p style={pStyle}>{props.content}</p>
+  </div>
 );
 
 About.defaultProps = {
