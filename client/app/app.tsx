@@ -1,17 +1,20 @@
-import * as React from 'react'
-import * as ReactDOM from 'react-dom'
-import { TestComponent } from './TestComponent'
+import React, { SFC } from "react";
+import { Header } from "./components";
 
-const PolarisApp: React.SFC<{ name: string, version: number }> = (props) => {
-    return (
-        <div>
-            <h2> Hi, You're using {props.name} <small> version { props.version} </small> </h2>
-            <TestComponent />
-        </div>
-    )
+interface AppProps {
+  className?: string;
+  children: JSX.Element[];
 }
 
-ReactDOM.render(
-    <PolarisApp name="Polaris: React Ecosystem of Present and Future" version={1} />,
-    document.getElementById('root')
-)
+const appStyling = {
+  paddingTop: "66px",
+  fontSize: "1em",
+  lineHeight: "1.4"
+};
+
+export const App: SFC<AppProps> = (props: AppProps) => (
+  <div>
+    <Header />
+    <div style={appStyling}>{props.children}</div>
+  </div>
+);
