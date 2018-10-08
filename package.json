@@ -19,7 +19,7 @@
     "express": "^4.16.3",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
     "webpack": "^4.15.1",
     "webpack-cli": "^3.0.8",
     "webpack-dev-server": "^3.1.4"
@@ -32,6 +32,7 @@
     "@types/node": "^10.5.2",
     "@types/react": "^16.4.6",
     "@types/react-dom": "^16.0.6",
+    "@types/react-router-dom": "^4.3.1",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.6.0",
     "enzyme-to-json": "^3.3.4",
@@ -40,6 +41,7 @@
     "ts-jest": "^23.10.3",
     "ts-loader": "^4.4.2",
     "ts-node": "^7.0.0",
-    "typescript": "^2.9.2"
+    "typescript": "^2.9.2",
+    "typescript-plugin-styled-components": "^1.0.0"
   }
 }
