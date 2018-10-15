@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`matches snapshot test with no props supplied 1`] = `
-<h1>
-  Hello 
-</h1>
-`;
